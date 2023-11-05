@@ -10,7 +10,7 @@ body {
 }
 
 header {
-    background-color: linear-gradient (#2104D9 , #000);
+    background: linear-gradient (#2104D9 , #000);
 }
 
 h1 {
