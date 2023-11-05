@@ -14,12 +14,18 @@ header {
     background: linear-gradient(.25turn, #2104D9 , #000);
 }
 
+nav {
+    background-color: #030a8c;
+}
+
 h1 {
     font-size: 1.25em;
 }
 
-h2, h3 {
+h2 {
     font-size: 1em;
+    color: #590242;
+    text-transform: capitalize;
 }
 
 p, dl, dd {
