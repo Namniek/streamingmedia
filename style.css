@@ -7,6 +7,7 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     min-width: 375px;
     margin: 0 auto;
+    background-color: #ffffff;
 }
 
 header {
@@ -34,4 +35,9 @@ p, dl, dd {
 
 footer p {
     font-size: .75em;
+}
+
+section a {
+    background-color: #590242;
+    color: #ffffff;
 }
