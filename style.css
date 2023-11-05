@@ -6,10 +6,11 @@ html {
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     min-width: 375px;
+    margin: 0 auto;
 }
 
 header {
-    background-color: #2104D9 #000;
+    background-color: linear-gradient (#2104D9 , #000);
 }
 
 h1 {
