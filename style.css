@@ -33,6 +33,10 @@ p, dl, dd {
     font-size: 1em;
 }
 
+dt {
+    text-transform: uppercase;
+}
+
 footer p {
     font-size: .75em;
 }
@@ -48,12 +52,12 @@ audio {
     z-index: 10;
 }
 
-.trending dl {
+#trending dl {
     color: #590242;
     z-index: 5;
     background-color: #ffffff;
 }
 
-.aloma {
+#aloma {
     background-image: url(Images/aloma-cover.png);
 }
