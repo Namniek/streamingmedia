@@ -35,6 +35,7 @@ p, dl, dd {
 
 dt {
     text-transform: uppercase;
+    font-weight: bold;
 }
 
 footer p {
