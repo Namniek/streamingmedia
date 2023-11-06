@@ -41,5 +41,19 @@ section a {
     display: block;
     background-color: #590242;
     color: #ffffff;
-    border-radius: 7px;
+    border-radius: 5px;
+}
+
+audio {
+    z-index: 10;
+}
+
+.trending dt, dd {
+    color: #590242;
+    z-index: 5;
+    background-color: #ffffff;
+}
+
+.aloma {
+    background-image: Images/aloma-cover.png;
 }
