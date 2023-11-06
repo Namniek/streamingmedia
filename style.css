@@ -48,7 +48,7 @@ audio {
     z-index: 10;
 }
 
-.trending dt, dd {
+.trending dd {
     color: #590242;
     z-index: 5;
     background-color: #ffffff;
@@ -56,4 +56,5 @@ audio {
 
 .aloma {
     background-image: url(Images/aloma-cover.png);
+    z-index: 11;
 }
