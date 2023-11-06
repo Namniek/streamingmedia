@@ -55,5 +55,5 @@ audio {
 }
 
 .aloma {
-    background-image: Images/aloma-cover.png;
+    background-image: url(Images/aloma-cover.png);
 }
