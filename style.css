@@ -26,7 +26,7 @@ h1 {
 h2 {
     font-size: 1em;
     color: #590242;
-    text-transform: capitalize;
+    text-transform: uppercase;
 }
 
 p, dl, dd {
@@ -60,4 +60,9 @@ audio {
 
 #aloma {
     background-image: url(Images/aloma-cover.png);
+}
+
+@media screen and (min-width: 375px) {
+
+
 }
