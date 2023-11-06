@@ -38,6 +38,8 @@ footer p {
 }
 
 section a {
+    display: block;
     background-color: #590242;
     color: #ffffff;
+    border-radius: 7px;
 }
