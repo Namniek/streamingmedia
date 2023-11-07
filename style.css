@@ -72,6 +72,24 @@ audio::-webkit-media-controls-mute-button {
     background-color: #ffffff;
 }
 
+.scroll {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.scroll section {
+    margin: 10px;
+    position: relative;
+}
+
+.scroll div {
+    position: absolute;
+    top: 251px;
+    background-color: ;
+}
+
 
 @media screen and (min-width: 375px) {
 
