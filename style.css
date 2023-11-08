@@ -173,6 +173,7 @@ p, dl, dd {
 dl {
     display: flex;
     padding: 5px;
+    color: #590242;
 }
 
 dt {
