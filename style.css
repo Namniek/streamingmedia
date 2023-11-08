@@ -245,10 +245,22 @@ audio::-webkit-media-controls-mute-button {
     position: absolute;
     top: 251px;
     background-color: rgb(255, 255, 255, .75);
-    color: #590242;
     padding: 5px;
     height: 50px;
     width: 350px;
+}
+
+#trending ::-webkit-scrollbar {
+    color: #590242;
+}
+#trending ::-webkit-scrollbar-track {
+
+}
+#trending ::-webkit-scrollbar-thumb {
+
+}
+#trending ::-webkit-scrollbar-thumb:hover {
+
 }
 
 
