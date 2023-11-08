@@ -202,10 +202,6 @@ main a {
     text-decoration: none;
 }
 
-main a:hover {
-    background-color: #020659;
-}
-
 audio {
     position: absolute;
     bottom: 150px;
@@ -259,4 +255,11 @@ audio::-webkit-media-controls-mute-button {
 @media screen and (min-width: 375px) {
 
 
+}
+
+@media screen and (min-width: 375px) {
+
+    main a:hover {
+        background-color: #020659;
+    }
 }
