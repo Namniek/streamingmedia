@@ -190,6 +190,23 @@ dd {
     background-color: (255, 255, 255, .75);
 }
 
+#playlists {
+    background-color: #2699fb;
+}
+
+#playlists dl {
+    background-color: #0d8dfb;
+}
+
+
+#curated {
+    background-color: #030a8c;
+}
+
+#curated dl {
+    background-color: #020873;
+}
+
 footer p {
     font-size: .75em;
 }
