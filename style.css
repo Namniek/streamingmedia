@@ -199,6 +199,11 @@ main a {
     width: 150px;
     text-align: center;
     margin: 10px 0 30px 32px;
+    text-decoration: none;
+}
+
+main a:hover {
+    background-color: #020659;
 }
 
 audio {
@@ -230,7 +235,7 @@ audio::-webkit-media-controls-mute-button {
 
 .scroll {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(5, 1fr);
     overflow-x: auto;
     overflow-y: hidden;
 }
