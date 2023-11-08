@@ -211,7 +211,6 @@ dd {
     padding: 10px;
 }
 
-
 #curated section {
     background-color: #020873;
     padding: 10px;
@@ -220,6 +219,10 @@ dd {
 #curated div {
     background-color: #030a8c;
     padding: 10px;
+}
+
+#playlists, #curated dt{
+    font-weight: bold;
 }
 
 footer p {
