@@ -172,12 +172,14 @@ p, dl, dd {
 
 dl {
     display: flex;
+    padding: 5px;
 }
 
 dt {
     font-style: italic;
     padding-right: 5px;
     background-color: (255, 255, 255, .75);
+
 }
 
 dd {
