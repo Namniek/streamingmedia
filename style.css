@@ -211,12 +211,12 @@ audio {
 audio::-webkit-media-controls-mute-button {
     background-color: #fff;
     color: #000;
-    border-radius: 25%;
+    border-radius: 100%;
   }
   audio::-webkit-media-controls-play-button {
     background-color: #fff;
-    color: #000
-    border-radius: 25%;
+    color: #000;
+    border-radius: 100%;
   }
   audio::-webkit-media-controls-enclosure {
     background-color: rgb(255, 255, 255, .75);
