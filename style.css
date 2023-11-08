@@ -221,7 +221,7 @@ dd {
     padding: 10px;
 }
 
-#playlists, #curated dt{
+#playlists dt, #curated dt{
     font-weight: bold;
 }
 
