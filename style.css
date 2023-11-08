@@ -112,28 +112,28 @@ header {
   
   /* menu btn */
   
-  .header .menu-btn {
+  .header .dropdown {
     display: none;
   }
   
-  .header .menu-btn:checked ~ .menu {
+  .header .dropdown:checked ~ .menu {
     max-height: 240px;
   }
   
-  .header .menu-btn:checked ~ .menu-icon .navicon {
+  .header .dropdown:checked ~ .menu-icon .navicon {
     background: transparent;
   }
   
-  .header .menu-btn:checked ~ .menu-icon .navicon:before {
+  .header .dropdown:checked ~ .menu-icon .navicon:before {
     transform: rotate(-45deg);
   }
   
-  .header .menu-btn:checked ~ .menu-icon .navicon:after {
+  .header .dropdown:checked ~ .menu-icon .navicon:after {
     transform: rotate(45deg);
   }
   
-  .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
-  .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+  .header .dropdown:checked ~ .menu-icon:not(.steps) .navicon:before,
+  .header .dropdown:checked ~ .menu-icon:not(.steps) .navicon:after {
     top: 0;
   }
   
