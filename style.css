@@ -190,7 +190,7 @@ dd {
     background-color: (255, 255, 255, .75);
 }
 
-#playlists {
+#playlists section {
     background-color: #2699fb;
 }
 
@@ -199,7 +199,7 @@ dd {
 }
 
 
-#curated {
+#curated section {
     background-color: #030a8c;
 }
 
