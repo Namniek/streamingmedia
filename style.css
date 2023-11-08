@@ -173,6 +173,9 @@ p, dl, dd {
 dl {
     display: flex;
     padding: 5px;
+}
+
+#trending dl {
     color: #590242;
 }
 
