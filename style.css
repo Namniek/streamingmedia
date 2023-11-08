@@ -160,6 +160,10 @@ h1 {
     font-size: 1.25em;
 }
 
+h2 {
+    padding: 10px;
+}
+
 h2, h3 {
     font-size: 1em;
     color: #590242;
