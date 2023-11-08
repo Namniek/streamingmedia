@@ -202,28 +202,29 @@ dd {
 }
 
 #playlists section {
-    background-color: #2699fb;
-    padding: 5px;
+    background-color: #0d8dfb;
+    padding: 10px;
 }
 
-#playlists dl {
-    background-color: #0d8dfb;
-    padding: 5px;
+#playlists div {
+    background-color: #2699fb;
+    padding: 10px;
 }
 
 
 #curated section {
-    background-color: #030a8c;
-    padding: 5px;
+    background-color: #020873;
+    padding: 10px;
 }
 
-#curated dl {
-    background-color: #020873;
-    padding: 5px;
+#curated div {
+    background-color: #030a8c;
+    padding: 10px;
 }
 
 footer p {
     font-size: .75em;
+    text-align: center;
 }
 
 main a {
@@ -307,6 +308,7 @@ audio::-webkit-media-controls-mute-button {
 #playlists ::-webkit-scrollbar-thumb:hover, #curated ::-webkit-scrollbar-thumb:hover {
     background: #fff;
 }
+
 
 
 @media screen and (min-width: 375px) {
