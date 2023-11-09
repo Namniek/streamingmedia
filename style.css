@@ -141,7 +141,7 @@ header {
 
 nav {
     background-color: #030a8c;
-    position: absolute;
+    position: fixed;
 }
 
 ul {
