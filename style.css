@@ -90,7 +90,7 @@ header {
   }
   
   .header li a:hover,
-  .header .menu-btn:hover {
+  .header .dropdown:hover {
     background-color: #f4f4f4;
   }
   
@@ -101,7 +101,7 @@ header {
     padding: 10px 20px;
     text-decoration: none;
   }
-  
+
 /* menu */
 
 .header .menu {
