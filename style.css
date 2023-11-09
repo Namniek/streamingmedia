@@ -67,7 +67,7 @@ header {
 /* header */
 
 .header {
-    background-color: #fff;
+    background-color: #030a8c;
     box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
     position: fixed;
     width: 100%;
@@ -79,7 +79,7 @@ header {
     padding: 0;
     list-style: none;
     overflow: hidden;
-    background-color: #fff;
+    background-color: #030a8c;
   }
   
   .header li a {
@@ -115,7 +115,7 @@ header {
   .header .menu-icon {
     cursor: pointer;
     display: inline-block;
-    float: right;
+    float: left;
     padding: 28px 20px;
     position: relative;
     user-select: none;
