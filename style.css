@@ -210,24 +210,35 @@ h1 {
 }
 
 h2 {
+    font-size: 1em;
+    color: #590242;
     padding: 10px;
     margin: 10px;
 }
 
-h2, h3 {
+h3 {
     font-size: 1em;
-    color: #590242;
-    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
 }
 
 p, dl, dd {
     font-size: 1em;
+    padding: 5px;
+}
+
+p {
+    text-align: center;
 }
 
 dl {
     display: flex;
     padding: 5px;
     color: #fff;
+}
+
+#trending h3 {
+    color: #590242;
 }
 
 #trending dl {
