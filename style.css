@@ -229,7 +229,25 @@ dl, dd {
     color: #590242;
     font-size: 1em;
     padding: 5px;
+    display: flex;
 }
+
+/*dl {
+    color: #590242;
+    display: flex;
+}*/
+
+dt {
+    font-style: italic;
+    /*padding-right: 5px;
+    /*background-color: (255, 255, 255, .75);*/
+
+}
+/*
+dd {
+    background-color: (255, 255, 255, .75);
+}
+*/
 
 p {
     color: #fff;
@@ -238,30 +256,9 @@ p {
     font-size: 1em;
 }
 
-dl {
-    display: flex;
-    /*padding: 5px;
-    color: #fff;*/
-}
-
 #trending h3 {
     color: #590242;
     text-align: left;
-}
-
-#trending dl {
-    color: #590242;
-}
-
-#trending dt {
-    font-style: italic;
-    padding-right: 5px;
-    background-color: (255, 255, 255, .75);
-
-}
-
-dd {
-    background-color: (255, 255, 255, .75);
 }
 
 #playlists section {
@@ -282,10 +279,6 @@ dd {
 #curated div {
     background-color: #030a8c;
     padding: 10px;
-}
-
-#playlists dt, #curated dt{
-    font-weight: bold;
 }
 
 footer p {
