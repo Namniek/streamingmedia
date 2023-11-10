@@ -282,8 +282,10 @@ p {
 }
 
 footer p {
+    color: #590242;
     font-size: .75em;
     text-align: center;
+    font-style: italic;
 }
 
 main a {
