@@ -213,17 +213,18 @@ h2 {
     font-size: 1em;
     color: #590242;
     padding: 10px;
-    margin: 10px;
+    /*margin: 10px;*/
 }
 
 h3 {
     font-size: 1em;
     color: #fff;
     text-align: center;
-    margin: 5px;
+    padding: 5px;
 }
 
 p, dl, dd {
+    color: #fff;
     font-size: 1em;
     padding: 5px;
 }
@@ -240,6 +241,7 @@ dl {
 
 #trending h3 {
     color: #590242;
+    text-align: left;
 }
 
 #trending dl {
