@@ -59,6 +59,8 @@ body {
 }
 
 header {
+    position: absolute;
+    top: 50px;
     width: 100%;
     background: linear-gradient(.25turn, #2104D9 , #000);
     color: #fff;
@@ -88,7 +90,7 @@ header {
   
   .header li a {
     display: block;
-    padding: 20px 20px;
+    padding: 5px 5px;
     border-right: 1px solid #f4f4f4;
     text-decoration: none;
   }
@@ -102,7 +104,7 @@ header {
     display: block;
     float: center;
     font-size: 2em;
-    padding: 10px 20px;
+    padding: 5px 10px;
     text-decoration: none;
   }
 
