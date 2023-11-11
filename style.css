@@ -70,6 +70,7 @@ header {
     color: #fff;
     padding: 5px 30px;
     grid-area: header;
+    width: 100%;
 }
 
 header p {
@@ -78,6 +79,7 @@ header p {
 
 main {
   grid-area: main;
+  width: 100%;
 }
 
 ul {
