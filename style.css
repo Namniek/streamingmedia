@@ -61,8 +61,8 @@ body {
   grid-template-areas: 
     "nav"
     "header"
-    "main"
-    "footer";
+   /* "main"
+    "footer";*/
 }
 
 header {
@@ -76,13 +76,13 @@ header p {
   text-align: left;
 }
 
-main {
+/*main {
     grid-area: main;
   }
 
 footer {
     grid-area: footer;
-  }
+  }*/
 
 /*ul {
     max-height: 0;
