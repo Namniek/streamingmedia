@@ -61,8 +61,8 @@ body {
   grid-template-areas: 
     "nav"
     "header"
-   /* "main"
-    "footer";*/
+    "main"
+    "footer";
 }
 
 header {
@@ -76,15 +76,11 @@ header p {
   text-align: left;
 }
 
-/*main {
-    grid-area: main;
-  }
+main {
+  grid-area: main;
+}
 
-footer {
-    grid-area: footer;
-  }*/
-
-/*ul {
+ul {
     max-height: 0;
     overflow: hidden;
 }
@@ -95,7 +91,7 @@ input:checked ~ ul {
 
 input {
     display: none;
-}*/
+}
 
 h1, h2, h3 {
     font-weight: bold;
@@ -169,6 +165,10 @@ p {
 #curated div {
     background-color: #030a8c;
     padding: 10px;
+}
+
+footer {
+  grid-area:footer;
 }
 
 footer p {
@@ -267,9 +267,9 @@ audio::-webkit-media-controls-mute-button {
   /* header */
 
 .header {
-  grid-area:nav;
+  grid-area: nav;
     background-color: #030a8c;
-    box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+    /*box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);*/
     width: 100%;
     z-index: 5;
   }
@@ -286,17 +286,11 @@ audio::-webkit-media-controls-mute-button {
     background-color: #030a8c;
   }
   
-  .header li a {
+  /*.header li a {
     display: block;
     padding: 5px 5px;
-    border-right: 1px solid #f4f4f4;
     text-decoration: none;
-  }
-  
-  .header li a:hover,
-  .header .dropdown:hover {
-    background-color: #f4f4f4;
-  }
+  }*/
   
   .header .logo {
     display: block;
@@ -321,7 +315,6 @@ audio::-webkit-media-controls-mute-button {
     display: inline-block;
     float: left;
     padding: 28px 20px;
-    position: relative;
     user-select: none;
   }
   
@@ -384,6 +377,10 @@ audio::-webkit-media-controls-mute-button {
 
 @media screen and (min-width: 834px) {
 
+  .menu {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+  }
     main a:hover {
         background-color: #020659;
     }
