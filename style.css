@@ -267,7 +267,7 @@ audio::-webkit-media-controls-mute-button {
 
 
 
-@media screen and (min-width: 375px) {
+@media screen and (max-width: 833px) {
 
   /* header */
 
