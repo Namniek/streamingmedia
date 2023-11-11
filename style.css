@@ -229,7 +229,7 @@ dl, dd {
     color: #590242;
     font-size: 1em;
     padding: 5px;
-    display: flex;
+    /*display: flex;*/
 }
 
 /*dl {
