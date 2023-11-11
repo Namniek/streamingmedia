@@ -76,6 +76,14 @@ header p {
   text-align: left;
 }
 
+main {
+    grid-area: main;
+  }
+
+footer {
+    grid-area: footer;
+  }
+
 /*ul {
     max-height: 0;
     overflow: hidden;
