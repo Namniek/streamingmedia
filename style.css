@@ -54,16 +54,22 @@ html {
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     min-width: 375px;
+    max-width: 834px;
     margin: 0 auto;
     background-color: #ffffff;
 }
 
+
 header {
-    position: absolute;
-    top: 50px;
-    width: 100%;
+    position: relative;
+    top: 44px;
     background: linear-gradient(.25turn, #2104D9 , #000);
     color: #fff;
+    padding: 5px 30px;
+}
+
+header p {
+  text-align: left;
 }
 
 /* header */
