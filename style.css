@@ -57,12 +57,15 @@ body {
     max-width: 834px;
     margin: 0 auto;
     background-color: #ffffff;
-  display: grid;
-  grid-template-areas: 
-    "nav"
-    "header"
-    "main"
-    "footer";
+  
+
+}
+
+body header, body nav {
+    display: grid;
+    grid-template-areas: 
+      "nav"
+      "header"
 }
 
 header {
