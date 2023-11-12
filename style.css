@@ -70,6 +70,7 @@ header, nav {
 
 nav {
     position: absolute;
+    top: 0;
 }
 
 header {
