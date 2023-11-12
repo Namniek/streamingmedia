@@ -85,10 +85,14 @@ table {
         text-align: center;
         text-decoration:none;
       }
+
+      nav li {
+        font-variant-caps: small-caps;
+      }
     
-    main {
+    /*main {
       grid-area: main;
-    }
+    }*/
     
     input {
         display: none;
