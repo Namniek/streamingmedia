@@ -61,11 +61,15 @@ body {
 
 }
 
-body header, body nav {
+header, nav {
     display: grid;
     grid-template-areas: 
       "nav"
       "header"
+}
+
+nav {
+    position: absolute;
 }
 
 header {
@@ -131,7 +135,6 @@ dl {
 dt {
     font-style: italic;
     padding-right: 5px;
-    /*background-color: (255, 255, 255, .75);*/
 }
 
 p {
