@@ -92,20 +92,16 @@ table {
       text-align: left;
     }
     
-     nav a {
+    nav a {
         color: #fff;
         padding: 10px;
         text-align: center;
         text-decoration:none;
       }
 
-      nav li {
+    nav li {
         font-variant-caps: small-caps;
       }
-    
-    /*main {
-      grid-area: main;
-    }*/
     
     input {
         display: none;
@@ -140,16 +136,15 @@ table {
         padding: 5px;
     }
     
-    dd {
+    /*dd {
         color: #590242;
         display: flex;
-    }
+    }*/
     
     dt {
         font-style: italic;
         padding-right: 5px;
     }
-    
     
     p {
         color: #fff;
@@ -227,12 +222,7 @@ table {
         background-color: rgb(255, 255, 255, .50);
       }
     
-    .scroll {
-        display: grid;
-        grid-template-columns: repeat(5, 1fr);
-        overflow-x: auto;
-        overflow-y: hidden;
-    }
+
     
     .scroll section {
         margin: 10px;
@@ -398,6 +388,12 @@ table {
         top: 0;
       }
     
+    .scroll {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        overflow-x: auto;
+        overflow-y: hidden;
+    }
     }
     
     @media screen and (min-width: 834px) {
@@ -424,5 +420,12 @@ table {
     }
         nav a:hover {
             background-color: #020659;
+        }
+
+        .scroll {
+            display: grid;
+            grid-template-rows: repeat(5, 1fr);
+            overflow-x: auto;
+            overflow-y: hidden;
         }
     }
