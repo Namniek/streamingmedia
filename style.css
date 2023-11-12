@@ -73,6 +73,19 @@ table {
         color: #fff;
         padding: 5px 30px;
         grid-area: header;
+        max-width: 834px;
+    }
+
+    nav {
+        max-width: 834px;
+    }
+
+    main {
+        max-width: 834px;
+    }
+
+    footer {
+        max-width: 834px;
     }
     
     header p {
