@@ -57,16 +57,19 @@ body {
     max-width: 834px;
     margin: 0 auto;
     background-color: #ffffff;
-  
-
-}
-
-header, nav {
     display: grid;
     grid-template-areas: 
       "nav"
       "header"
+
 }
+
+nav a {
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    text-decoration:none;
+  }
 
 nav {
     position: absolute;
@@ -168,10 +171,6 @@ p {
 #curated div {
     background-color: #030a8c;
     padding: 10px;
-}
-
-footer {
-  grid-area:footer;
 }
 
 footer p {
@@ -380,11 +379,27 @@ audio::-webkit-media-controls-mute-button {
 
 @media screen and (min-width: 834px) {
 
-  .menu {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-  }
-    main a:hover {
-        background-color: #020659;
+    nav {
+        background-color: #030a8c;
+        padding: 10px;
+        text-transform: uppercase;
+        text-decoration:none;
     }
-}
+      
+      nav h2 {
+        display: none;
+      }
+    
+    nav ul {
+        list-style: none;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+    }
+    
+    nav li {
+        display: inline-flex;
+    }
+     nav a:hover {
+         background-color: #020659;
+        }
+    }
