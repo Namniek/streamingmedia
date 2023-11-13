@@ -91,6 +91,13 @@ header p {
   text-align: left;
 }
 
+.logo {
+    text-transform: capitalize;
+    font-variant: small-caps;
+  font-weight:bold;
+  font-size: 1.75em;
+  }
+
 nav a {
     color: #fff;
     padding: 10px;
