@@ -57,7 +57,7 @@ html {
 
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    width: 375px;
+    min-width: 375px;
     max-width: 834px;
     margin: 0 auto;
     background-color: #ffffff;
