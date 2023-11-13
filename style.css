@@ -229,13 +229,6 @@ audio::-webkit-media-controls-mute-button {
     background-color: rgb(255, 255, 255, .50);
   }
 
-.scroll {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    overflow-x: auto;
-    overflow-y: hidden;
-    }
-
 .scroll section {
     margin: 10px;
     position: relative;
@@ -399,6 +392,12 @@ input:checked ~ ul {
     top: 0;
   }
 
+  .scroll {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    overflow-x: auto;
+    overflow-y: hidden;
+    }
 }
 
 @media screen and (min-width: 834px) {
@@ -481,10 +480,5 @@ nav a:hover {
   #curated img {
     float:left;
   }
-
-.scroll section {
-    margin: 10px;
-    position: relative;
-}
 
 }
