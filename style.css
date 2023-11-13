@@ -442,12 +442,9 @@ nav a:hover {
         display: grid;
       grid-template-areas: 
         "trending trending"
-        "playlists curated"
-        ;
-        /*grid-template-columns: repeat(2, 100px);
-        grid-template-rows: repeat(3, 1fr);
-        overflow-x: hidden;
-        overflow-y: auto;*/
+        "playlists curated";
+        max-height: fit-content;
+        max-width: 834px;
     }
   
 
