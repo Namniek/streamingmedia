@@ -143,10 +143,6 @@ dl {
     display: flex;
 }
 
-/*dd {
-    display: flex;
-}*/
-
 dt {
     font-style: italic;
     padding-right: 5px;
@@ -453,11 +449,14 @@ nav a:hover {
         "playlists curated";
         
     }
-  
 
-
-
-
+    main a {
+        float: right;
+          margin:10px;
+        }
+        main a:hover {
+          background-color: #020659;
+        }
   
   #trending {
     grid-area: trending;
