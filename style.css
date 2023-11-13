@@ -48,6 +48,13 @@ table {
 }
 
 
+.scroll {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
 
 html {
     background-color: #020659;
@@ -390,12 +397,12 @@ input:checked ~ ul {
     top: 0;
   }
 
-.scroll {
+/*.scroll {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     overflow-x: auto;
     overflow-y: hidden;
-}
+}*/
 }
 
 @media screen and (min-width: 834px) {
