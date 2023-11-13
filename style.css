@@ -426,15 +426,15 @@ nav a:hover {
   
  #playlists .scroll {
     display: grid;
-        grid-template-rows: repeat(5, 250px);
+        grid-template-rows: repeat(5, 1fr);
         overflow-x: hidden;
         overflow-y: auto;
   }
  #curated .scroll {
         display: grid;
-        grid-template-rows: repeat(5, 250px);
-        overflow-x: auto;
-        overflow-y: hidden;
+        grid-template-rows: repeat(5, 1fr);
+        overflow-x: hidden;
+        overflow-y: auto;
     }
   
 
@@ -443,8 +443,7 @@ nav a:hover {
       grid-template-areas: 
         "trending trending"
         "playlists curated";
-        max-height: fit-content;
-        max-width: 834px;
+        
     }
   
 
@@ -460,5 +459,13 @@ nav a:hover {
   }
   #curated {
     grid-area: curated;
+  }
+
+  #playlists img {
+    float: left;
+  }
+  
+  #curated img {
+    float:left;
   }
 }
