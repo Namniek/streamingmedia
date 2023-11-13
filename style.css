@@ -142,9 +142,9 @@ dl {
     padding: 5px;
 }
 
-dd {
+/*dd {
     display: flex;
-}
+}*/
 
 dt {
     font-style: italic;
